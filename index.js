@@ -10,6 +10,6 @@ let num6 = 15;
 let num7 = 20;
 
 let multiply = num1 * num2;
-let random = Math.random();
+let random = (Math.random() * 1000)+1;
 let mod = num3 % num4;
 let max = Math.max(num5, num6, num7)
